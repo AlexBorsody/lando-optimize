@@ -1,5 +1,5 @@
-# lando_mysql_stop_connecting
-A solution for mysql stop connecting after `lando restart` https://github.com/lando/lando/issues/1718
+# Lando cure all
+A solution for mysql not connecting `lando restart` https://github.com/lando/lando/issues/1718
 
 I think I found a solution, 
 I had same issue multiple times, and I was forced to completely uninstall my application and  install it again, which resulted in recreating the database. This time I took my time and try to solve this *** problem.
@@ -55,7 +55,9 @@ to check your database or
 $ docker ps
 ```
 
-Optimize Docker
+# Optimize Docker
+
+Optimize
 
 ```
 docker system prune
