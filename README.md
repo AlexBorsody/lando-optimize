@@ -63,7 +63,7 @@ Optimize
 $ docker system prune
 ```
 
-This prevents you from resorting to a `lando destroy` and blowing away your database.
+This prevents you from resorting to a `lando destroy` and blowing away your database
 
 ```
 $ ando poweroff
