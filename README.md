@@ -60,13 +60,13 @@ $ docker ps
 Optimize
 
 ```
-docker system prune
+$ docker system prune
 ```
 
 This prevents you from resorting to a `lando destroy` and blowing away your database.
 
 ```
-lando poweroff
+$ ando poweroff
 $ lando --clear
 $ docker rm -f $(docker ps --filter label=io.lando.container=TRUE --all -q)
 # then i restart docker manually
