@@ -30,24 +30,6 @@ remove all docker images
 $ docker rmi $(docker images -q)
 ```
 
-after that I went to my application directory and started it up
-
-```shell
-$ lando start
-```
-
-And try running 
-
-```shell
-$ lando mysql -v
-```
-
-to check your database or 
-
-```shell
-$ docker ps
-```
-
 # Optimize Docker
 
 Optimize and keep database
