@@ -1,6 +1,5 @@
 # Lando cure all
-
-So first I've shut lando
+shut down
 
 ```shell
 $ lando stop
