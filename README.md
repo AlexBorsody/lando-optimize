@@ -53,5 +53,6 @@ $ docker rm -f $(docker ps --filter label=io.lando.container=TRUE --all -q)
 If lando rebuild or restartind docker doesn't help try deleting your /core and /vendor folder and running lando install again more info here
 
 https://github.com/geerlingguy/drupal-vm/issues/1439
+
 https://github.com/drupal-composer/drupal-packagist/issues/66
 
