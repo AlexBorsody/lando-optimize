@@ -1,4 +1,4 @@
-# Lando cure all
+# Lando Panacea
 shut down
 
 ```shell
